@@ -1,0 +1,73 @@
+
+/***********************
+   	NAVIGATION
+***********************/
+.navigation {
+	padding: 0;
+	display: block;
+	list-style: none;
+	text-align: center;
+}
+
+.navigation li {
+	display: inline;
+	transition: 0.5s ease;
+}
+
+.navigation li a {
+	text-decoration: none;
+}
+
+.navigation li a:hover {
+	background-color: green;
+	border: 5px solid red;
+	font-size: 50px;
+	color: white;
+}
+
+/************************
+		BUTTONS
+************************/
+
+.buttons {
+	margin: 0 auto;
+	text-align: center;
+}
+
+.buttons a {
+	text-decoration: none;
+}
+
+.button1 {
+	background-color: #e085c2;
+	padding: 10px;
+	border: 2px solid green;
+}
+
+.button2 {
+	background-color: tomato;
+	padding: 40px;
+	border-radius: 50%;
+}
+
+.button3 {
+	background-color: blue;
+	padding: 20px 0;
+	border: 2px dotted red;
+}
+
+.buttons a:hover {
+	color:white;
+}
+
+.button1:hover {
+	background-color: purple;
+}
+
+.button2:hover {
+	background-color: #b32400;
+}
+
+.button3:hover {
+	background-color: #290066;
+}
